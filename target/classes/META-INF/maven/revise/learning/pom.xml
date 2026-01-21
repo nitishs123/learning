@@ -35,12 +35,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>CodeOptimal</groupId>
-			<artifactId>Kb3</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
 		<!--
 		https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
