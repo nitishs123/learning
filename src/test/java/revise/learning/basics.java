@@ -13,7 +13,7 @@ import revise.pageObjects.cartPage;
 
 public class basics extends driverTest {
 
-	@Test(dataProvider = "dataSearch", retryAnalyzer = revise.retryAnalyzer.retry.class)
+	@Test(dataProvider = "dataSearch")
 	public void Amazon(HashMap<String, String> input) throws InterruptedException {
 		cartPage cart = search.searchEngine(input.get("search1"));
 		cart.addToCart();
