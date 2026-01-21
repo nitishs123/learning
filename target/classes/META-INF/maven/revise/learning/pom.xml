@@ -59,7 +59,7 @@
 
 	<profiles>
 		<profile>
-			<id></id>
+			<id>test</id>
 			<build>
 				<pluginManagement>
 					<plugins>
