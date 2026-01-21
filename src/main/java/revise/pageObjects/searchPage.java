@@ -19,7 +19,7 @@ public class searchPage extends abstractComponent {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//input[@id='twotabsearchtextbo']")
+	@FindBy(xpath = "//input[@id='twotabsearchtextbox']")
 	WebElement searchBox;
 
 	@FindBy(xpath = "//div[@role='row']")
