@@ -18,7 +18,7 @@ public class abstractComponent {
 	public abstractComponent(WebDriver driver) {
 		this.driver = driver;
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		this.wait = wait;
 		this.js = js;
 	}
